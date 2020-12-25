@@ -7,8 +7,4 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12'
-      - run: npm install -g hexo-cli
-      - run: npx hexo init mrzhao  
-      - run: cd /home/runner/work/markdown/markdown/mrzhao
-      - run: pwd  
-      - run: ls
+      - run: npm install -g hexo-cli && npx hexo init mrzhao && cd mrzhao && pwd && ls

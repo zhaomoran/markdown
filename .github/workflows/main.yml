@@ -8,3 +8,4 @@ jobs:
         with:
           node-version: '12'
       - run: npm install -g hexo-cli
+      - run: npx hexo init mrzhao  

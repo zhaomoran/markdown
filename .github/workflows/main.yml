@@ -25,9 +25,6 @@ jobs:
       run: |
         hexo clean
         hexo g
-    
-    # 提交到我们的存放静态资源的仓库
-
     - name: Build and Deploy
       uses: y4code/hexo-deploy-action@master
       env:
